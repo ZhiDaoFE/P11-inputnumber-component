@@ -1,0 +1,42 @@
+.zd-inputnumber {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 90px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+}
+
+.zd-inputnumber:focus-within {
+  border-color: #1677ff;
+  box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+  outline: 0;
+  background-color: #fff;
+}
+
+.zd-inputnumber.z-dis {
+  background-color: rgba(0, 0, 0, .04);
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+
+.zd-inputnumber.z-dis .zd-inputnumber-input {
+  color: rgba(0, 0, 0, .25);
+  cursor: not-allowed;
+}
+
+.zd-inputnumber-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px 11px;
+  width: 100%;
+  color: rgba(0, 0, 0, .88);
+  font-size: 14px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  outline: 0;
+}
